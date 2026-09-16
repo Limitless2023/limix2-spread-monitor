@@ -1,6 +1,6 @@
 window.LIMIX2_DATA = {
-  "generated_at_utc": "2026-09-16T16:34:10Z",
-  "generated_at_shanghai": "2026-09-17 00:34",
+  "generated_at_utc": "2026-09-16T16:57:39Z",
+  "generated_at_shanghai": "2026-09-17 00:57",
   "project": "LimiX-2",
   "warnings": [
     "GitHub stars/forks 为 limix-ldm-ai/LimiX 整仓累计，非 LimiX-2 单独指标。",
@@ -3123,11 +3123,11 @@ window.LIMIX2_DATA = {
       "channel": "微信公众号",
       "source_type": "seeded",
       "owner": "己方公众号",
-      "notes": "Limitless 提供，自家官方发文",
+      "notes": "Limitless 提供，自家官方发文；搜狗展示账号名「稳准智能」（与己方官方文同 URL）",
       "publish_time": null,
       "publish_time_note": "页面未解析到精确发布时间；文内称「今天」，对齐开源日 2026-09-16",
       "first_seen": "2026-09-16T06:53:21Z",
-      "last_seen": "2026-09-16T14:32:38Z",
+      "last_seen": "2026-09-16T16:57:39Z",
       "status": "online",
       "engagement": {
         "views": null,
@@ -3142,7 +3142,8 @@ window.LIMIX2_DATA = {
         "ok": true,
         "method": "urllib",
         "fetched_at_utc": "2026-09-16T14:32:38Z"
-      }
+      },
+      "account": "稳准智能"
     },
     {
       "id": "seeded-qbitai-20260916-limix2",
@@ -3252,12 +3253,96 @@ window.LIMIX2_DATA = {
         "captured_at_shanghai": "2026-09-16 20:49",
         "method": "browser_screenshot"
       }
+    },
+    {
+      "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+      "url": null,
+      "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+      "channel": "微信公众号",
+      "account": "LDM前沿",
+      "source_type": "organic",
+      "lang": "zh",
+      "kind": "full_repost",
+      "notes": "搜狗微信检索发现同题全文转载账号「LDM前沿」；截图约显示「8小时前」。未能取得稳定 mp.weixin 直链（点进仍环境异常）。互动数字公开不可见，全部记 null。",
+      "first_seen": "2026-09-16T16:57:39Z",
+      "last_seen": "2026-09-16T16:57:39Z",
+      "status": "indexed_sogou",
+      "discovery": {
+        "method": "sogou_weixin",
+        "query": "LimiX-2 登顶国际主流Benchmark",
+        "evidence": "/workspace/limix2-engagement-shots/sogou-wechat-results.png"
+      },
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "favorites": null,
+        "comments": null,
+        "captured_at": "2026-09-16T16:57:39Z",
+        "note": "公开页未见数字"
+      }
+    },
+    {
+      "id": "organic-wechat-yuanqi-20260916-limix2",
+      "url": null,
+      "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+      "channel": "微信公众号",
+      "account": null,
+      "source_type": "organic",
+      "lang": "zh",
+      "kind": "full_repost_titled",
+      "notes": "搜狗微信检索发现带「园企硬实力」前缀的同题转载；账号名 HTML 未稳定解析。无稳定直链；互动 null。",
+      "first_seen": "2026-09-16T16:57:39Z",
+      "last_seen": "2026-09-16T16:57:39Z",
+      "status": "indexed_sogou",
+      "discovery": {
+        "method": "sogou_weixin",
+        "query": "LimiX-2 登顶国际主流Benchmark",
+        "evidence": "/workspace/limix2-engagement-shots/sogou-wechat-results.png"
+      },
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "favorites": null,
+        "comments": null,
+        "captured_at": "2026-09-16T16:57:39Z",
+        "note": "公开页未见数字"
+      }
+    },
+    {
+      "id": "organic-wechat-changshou-20260916-digest",
+      "url": null,
+      "title": "每日战略资讯【2026-09-16】",
+      "channel": "微信公众号",
+      "account": "长寿时代研究",
+      "source_type": "organic",
+      "lang": "zh",
+      "kind": "digest_mention",
+      "notes": "搜狗微信检索：资讯汇编提及清华稳准智能联合发布 LimiX-2（400M）；非全文同题稿。截图约「6小时前」。无稳定直链；互动 null。",
+      "first_seen": "2026-09-16T16:57:39Z",
+      "last_seen": "2026-09-16T16:57:39Z",
+      "status": "indexed_sogou",
+      "discovery": {
+        "method": "sogou_weixin",
+        "query": "LimiX-2 登顶国际主流Benchmark",
+        "evidence": "/workspace/limix2-engagement-shots/sogou-wechat-results.png"
+      },
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "favorites": null,
+        "comments": null,
+        "captured_at": "2026-09-16T16:57:39Z",
+        "note": "公开页未见数字"
+      }
     }
   ],
   "counts": {
     "seeded": 2,
-    "organic": 4,
-    "organic_media": 1,
+    "organic": 7,
+    "organic_media": 4,
     "organic_anchor": 3
   }
 };
