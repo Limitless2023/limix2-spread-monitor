@@ -118,10 +118,10 @@ export function MediaTable({ items }: { items: MediaItem[] }) {
                   <TableCell>
                     <ClassBadge item={item} />
                   </TableCell>
-                  <TableCell className="tabular-nums text-muted-foreground">
+                  <TableCell className="whitespace-nowrap tabular-nums text-muted-foreground">
                     {fmtTime(item.first_seen)}
                   </TableCell>
-                  <TableCell className="tabular-nums text-muted-foreground">
+                  <TableCell className="whitespace-nowrap tabular-nums text-muted-foreground">
                     {fmtTime(item.last_seen)}
                   </TableCell>
                   <TableCell className="max-w-[180px] whitespace-normal tabular-nums text-muted-foreground">

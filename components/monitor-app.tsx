@@ -92,7 +92,7 @@ export function MonitorApp() {
     <div className="mx-auto flex min-h-full w-full max-w-7xl flex-col px-4 py-8 sm:px-6">
       <header className="space-y-3">
         <h1 className="font-heading text-2xl tracking-tight sm:text-3xl">LimiX-2 传播监测</h1>
-        <p className="max-w-3xl text-sm leading-6 text-muted-foreground sm:text-base">
+        <p className="max-w-4xl text-sm leading-6 text-muted-foreground sm:text-base">
           跟踪 <strong className="text-foreground">LimiX-2（400M）</strong> 开源后的小时级传播：区分
           <strong className="text-foreground">投放</strong>与
           <strong className="text-foreground">自发</strong>
@@ -132,7 +132,7 @@ export function MonitorApp() {
         </Alert>
       ) : data ? (
         <Tabs value={tab} onValueChange={onTabChange} className="gap-4">
-          <TabsList variant="line" className="w-full max-w-md">
+          <TabsList variant="line" className="h-auto w-full max-w-full justify-start overflow-x-auto sm:max-w-md">
             <TabsTrigger value="board">看板</TabsTrigger>
             <TabsTrigger value="media">媒体列表</TabsTrigger>
             <TabsTrigger value="hourly">小时存档</TabsTrigger>

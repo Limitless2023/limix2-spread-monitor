@@ -48,10 +48,12 @@ function TrendCard({
   title,
   data,
   series,
+  dualAxis = false,
 }: {
   title: string
   data: ReturnType<typeof toChartRows>
   series: Series[]
+  dualAxis?: boolean
 }) {
   return (
     <Card>
@@ -68,7 +70,7 @@ function TrendCard({
             </div>
           ) : (
             <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
+              <LineChart data={data} margin={{ top: 8, right: dualAxis ? 8 : 8, left: 0, bottom: 0 }}>
                 <CartesianGrid stroke="var(--border)" strokeDasharray="3 3" />
                 <XAxis
                   dataKey="label"
@@ -78,12 +80,26 @@ function TrendCard({
                   minTickGap={24}
                 />
                 <YAxis
+                  yAxisId="left"
                   tick={{ fill: "var(--muted-foreground)", fontSize: 11 }}
                   tickLine={false}
                   axisLine={false}
                   width={48}
                   allowDecimals={false}
+                  domain={["auto", "auto"]}
                 />
+                {dualAxis ? (
+                  <YAxis
+                    yAxisId="right"
+                    orientation="right"
+                    tick={{ fill: "var(--muted-foreground)", fontSize: 11 }}
+                    tickLine={false}
+                    axisLine={false}
+                    width={40}
+                    allowDecimals={false}
+                    domain={["auto", "auto"]}
+                  />
+                ) : null}
                 <ChartTooltip
                   contentStyle={{
                     background: "var(--popover)",
@@ -95,9 +111,10 @@ function TrendCard({
                   formatter={(value, name) => [fmtNumber(value), String(name)]}
                 />
                 <Legend wrapperStyle={{ fontSize: 12 }} />
-                {series.map((s) => (
+                {series.map((s, i) => (
                   <Line
                     key={s.key}
+                    yAxisId={dualAxis && i === 1 ? "right" : "left"}
                     type="monotone"
                     dataKey={s.key}
                     name={s.name}
@@ -123,6 +140,7 @@ export function TrendCharts({ history }: { history: Snapshot[] }) {
       <TrendCard
         title="GitHub Stars / Forks（整仓累计）"
         data={data}
+        dualAxis
         series={[
           { key: "stars", name: "Stars", color: COLORS.stars },
           { key: "forks", name: "Forks", color: COLORS.forks },
@@ -131,6 +149,7 @@ export function TrendCharts({ history }: { history: Snapshot[] }) {
       <TrendCard
         title="Hugging Face Likes / Downloads"
         data={data}
+        dualAxis
         series={[
           { key: "likes", name: "Likes", color: COLORS.likes },
           { key: "downloads", name: "Downloads", color: COLORS.downloads },
