@@ -1,12 +1,13 @@
 window.LIMIX2_DATA = {
-  "generated_at_utc": "2026-09-16T14:32:53Z",
-  "generated_at_shanghai": "2026-09-16 22:32",
+  "generated_at_utc": "2026-09-16T16:34:10Z",
+  "generated_at_shanghai": "2026-09-17 00:34",
   "project": "LimiX-2",
   "warnings": [
     "GitHub stars/forks 为 limix-ldm-ai/LimiX 整仓累计，非 LimiX-2 单独指标。",
     "请区分 LimiX-2（400M，2026-09-16 开源）与旧版 LimiX-2M（约 2M 参数）。",
     "指标均为尽力采集；缺失字段表示未能获取，未虚构数值。",
-    "媒体列表将 GitHub / Hugging Face / arXiv 归入「官方锚点」，其余为「媒体稿」。"
+    "媒体列表将 GitHub / Hugging Face / arXiv 归入「官方锚点」，其余为「媒体稿」。",
+    "媒体互动按小时留档，用于监测增长；公开页面采不到的字段保持 null。"
   ],
   "latest": {
     "ts_utc": "2026-09-16T14:32:38Z",
@@ -168,6 +169,59 @@ window.LIMIX2_DATA = {
       "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
       "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
       "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+    ],
+    "media_engagement": [
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      },
+      {
+        "id": "organic-leiphone-20260916-limix2",
+        "media_id": "organic-leiphone-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "雷峰网",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": 0,
+          "comments": 0,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      }
     ]
   },
   "snapshots": [
@@ -260,6 +314,25 @@ window.LIMIX2_DATA = {
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T06:54:54Z"
+          },
+          "captured_at": "2026-09-16T06:54:54Z"
+        }
+      ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
     },
@@ -343,6 +416,25 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T07:01:51Z"
+          },
+          "captured_at": "2026-09-16T07:01:51Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -436,6 +528,25 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "代理 WebSearch 补充：量子位 2026-09-16 报道 LimiX-2（400M），按自发登记（未在投放名单）。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T08:10:44Z"
+          },
+          "captured_at": "2026-09-16T08:10:44Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
@@ -531,6 +642,42 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T09:10:02Z"
+          },
+          "captured_at": "2026-09-16T09:10:02Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T09:10:02Z"
+          },
+          "captured_at": "2026-09-16T09:10:02Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -628,6 +775,42 @@ window.LIMIX2_DATA = {
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T10:02:26Z"
+          },
+          "captured_at": "2026-09-16T10:02:26Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T10:02:26Z"
+          },
+          "captured_at": "2026-09-16T10:02:26Z"
+        }
+      ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
     },
@@ -723,6 +906,42 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T11:07:33Z"
+          },
+          "captured_at": "2026-09-16T11:07:33Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T11:07:33Z"
+          },
+          "captured_at": "2026-09-16T11:07:33Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -831,6 +1050,42 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T12:26:00Z"
+          },
+          "captured_at": "2026-09-16T12:26:00Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T12:26:00Z"
+          },
+          "captured_at": "2026-09-16T12:26:00Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
@@ -995,6 +1250,59 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        }
       ]
     },
     {
@@ -1157,6 +1465,59 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        }
       ]
     }
   ],
@@ -1250,6 +1611,25 @@ window.LIMIX2_DATA = {
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T06:54:54Z"
+          },
+          "captured_at": "2026-09-16T06:54:54Z"
+        }
+      ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
     },
@@ -1333,6 +1713,25 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T07:01:51Z"
+          },
+          "captured_at": "2026-09-16T07:01:51Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -1426,6 +1825,25 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "代理 WebSearch 补充：量子位 2026-09-16 报道 LimiX-2（400M），按自发登记（未在投放名单）。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T08:10:44Z"
+          },
+          "captured_at": "2026-09-16T08:10:44Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
@@ -1521,6 +1939,42 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T09:10:02Z"
+          },
+          "captured_at": "2026-09-16T09:10:02Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T09:10:02Z"
+          },
+          "captured_at": "2026-09-16T09:10:02Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -1618,6 +2072,42 @@ window.LIMIX2_DATA = {
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T10:02:26Z"
+          },
+          "captured_at": "2026-09-16T10:02:26Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T10:02:26Z"
+          },
+          "captured_at": "2026-09-16T10:02:26Z"
+        }
+      ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
     },
@@ -1713,6 +2203,42 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T11:07:33Z"
+          },
+          "captured_at": "2026-09-16T11:07:33Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T11:07:33Z"
+          },
+          "captured_at": "2026-09-16T11:07:33Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 0
@@ -1821,6 +2347,42 @@ window.LIMIX2_DATA = {
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T12:26:00Z"
+          },
+          "captured_at": "2026-09-16T12:26:00Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T12:26:00Z"
+          },
+          "captured_at": "2026-09-16T12:26:00Z"
+        }
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
@@ -1985,6 +2547,59 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-16T13:27:28Z"
+          },
+          "captured_at": "2026-09-16T13:27:28Z"
+        }
       ]
     },
     {
@@ -2147,9 +2762,359 @@ window.LIMIX2_DATA = {
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-16T14:32:38Z"
+          },
+          "captured_at": "2026-09-16T14:32:38Z"
+        }
       ]
     }
   ],
+  "media_engagement_history": {
+    "wechat-official-20260916": [
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T06:54:54Z"
+        },
+        "captured_at": "2026-09-16T06:54:54Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T07:01:51Z"
+        },
+        "captured_at": "2026-09-16T07:01:51Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T08:10:44Z"
+        },
+        "captured_at": "2026-09-16T08:10:44Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T09:10:02Z"
+        },
+        "captured_at": "2026-09-16T09:10:02Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T10:02:26Z"
+        },
+        "captured_at": "2026-09-16T10:02:26Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T11:07:33Z"
+        },
+        "captured_at": "2026-09-16T11:07:33Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T12:26:00Z"
+        },
+        "captured_at": "2026-09-16T12:26:00Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        "captured_at": "2026-09-16T13:27:28Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      }
+    ],
+    "seeded-qbitai-20260916-limix2": [
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T09:10:02Z"
+        },
+        "captured_at": "2026-09-16T09:10:02Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T10:02:26Z"
+        },
+        "captured_at": "2026-09-16T10:02:26Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T11:07:33Z"
+        },
+        "captured_at": "2026-09-16T11:07:33Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T12:26:00Z"
+        },
+        "captured_at": "2026-09-16T12:26:00Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        "captured_at": "2026-09-16T13:27:28Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      }
+    ],
+    "organic-leiphone-20260916-limix2": [
+      {
+        "id": "organic-leiphone-20260916-limix2",
+        "media_id": "organic-leiphone-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "雷峰网",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": 0,
+          "comments": 0,
+          "captured_at": "2026-09-16T13:27:28Z"
+        },
+        "captured_at": "2026-09-16T13:27:28Z"
+      },
+      {
+        "id": "organic-leiphone-20260916-limix2",
+        "media_id": "organic-leiphone-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "雷峰网",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": 0,
+          "comments": 0,
+          "captured_at": "2026-09-16T14:32:38Z"
+        },
+        "captured_at": "2026-09-16T14:32:38Z"
+      }
+    ]
+  },
   "seeded": [
     {
       "id": "wechat-official-20260916",
