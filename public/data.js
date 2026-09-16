@@ -1,6 +1,6 @@
 window.LIMIX2_DATA = {
-  "generated_at_utc": "2026-09-16T12:39:24Z",
-  "generated_at_shanghai": "2026-09-16 20:39",
+  "generated_at_utc": "2026-09-16T14:32:53Z",
+  "generated_at_shanghai": "2026-09-16 22:32",
   "project": "LimiX-2",
   "warnings": [
     "GitHub stars/forks 为 limix-ldm-ai/LimiX 整仓累计，非 LimiX-2 单独指标。",
@@ -9,8 +9,8 @@ window.LIMIX2_DATA = {
     "媒体列表将 GitHub / Hugging Face / arXiv 归入「官方锚点」，其余为「媒体稿」。"
   ],
   "latest": {
-    "ts_utc": "2026-09-16T12:26:00Z",
-    "ts_shanghai": "2026-09-16 20:26",
+    "ts_utc": "2026-09-16T14:32:38Z",
+    "ts_shanghai": "2026-09-16 22:32",
     "github": {
       "url": "https://github.com/limix-ldm-ai/LimiX",
       "stars": 4175,
@@ -18,14 +18,14 @@ window.LIMIX2_DATA = {
       "watchers": 76,
       "open_issues": 9,
       "open_prs": 0,
-      "source": "api:urllib",
-      "error": null,
+      "source": "html:urllib",
+      "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
       "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
     },
     "hf": {
       "repo_id": "stable-ai/LimiX-2",
       "url": "https://huggingface.co/stable-ai/LimiX-2",
-      "likes": 0,
+      "likes": 11,
       "downloads": 19,
       "downloads_all_time": 19,
       "discussions": 0,
@@ -49,6 +49,8 @@ window.LIMIX2_DATA = {
     },
     "seeded_count": 2,
     "organic_count": 4,
+    "organic_media_count": 1,
+    "organic_anchor_count": 3,
     "seeded": [
       {
         "id": "wechat-official-20260916",
@@ -58,8 +60,16 @@ window.LIMIX2_DATA = {
         "owner": "己方公众号",
         "status": "online",
         "first_seen": "2026-09-16T06:53:21Z",
-        "last_seen": "2026-09-16T12:26:00Z",
-        "engagement": {},
+        "last_seen": "2026-09-16T14:32:38Z",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "comments": null,
+          "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+          "captured_at_shanghai": "2026-09-16 20:49",
+          "method": "browser_screenshot_blocked"
+        },
         "fetch_ok": true
       },
       {
@@ -70,29 +80,74 @@ window.LIMIX2_DATA = {
         "owner": "约稿媒体",
         "status": "online",
         "first_seen": "2026-09-16T08:12:50Z",
-        "last_seen": "2026-09-16T12:26:00Z",
-        "engagement": {},
+        "last_seen": "2026-09-16T14:32:38Z",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "comments": null,
+          "note": "浏览器公开页未见阅读/点赞/转发数字",
+          "captured_at_shanghai": "2026-09-16 20:49",
+          "method": "browser_screenshot"
+        },
         "fetch_ok": true
       }
     ],
-    "organic_new": [
+    "organic": [
+      {
+        "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+        "title": "limix-ldm-ai/LimiX (GitHub)",
+        "channel": "GitHub",
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "status": "online",
+        "first_seen": "2026-09-16T06:54:54Z",
+        "last_seen": "2026-09-16T14:32:38Z",
+        "publish_time": null,
+        "source_type": "organic",
+        "is_anchor": true
+      },
+      {
+        "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+        "title": "stable-ai/LimiX-2 (Hugging Face)",
+        "channel": "Hugging Face",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "status": "online",
+        "first_seen": "2026-09-16T06:54:54Z",
+        "last_seen": "2026-09-16T14:32:38Z",
+        "publish_time": null,
+        "source_type": "organic",
+        "is_anchor": true
+      },
+      {
+        "id": "organic-https-arxiv-org-abs-2609-17488",
+        "title": "arXiv:2609.17488 LimiX-2",
+        "channel": "arXiv",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "status": "online",
+        "first_seen": "2026-09-16T06:54:54Z",
+        "last_seen": "2026-09-16T14:32:38Z",
+        "publish_time": null,
+        "source_type": "organic",
+        "is_anchor": true
+      },
       {
         "id": "organic-leiphone-20260916-limix2",
-        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
         "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
         "channel": "雷峰网",
-        "source_type": "organic",
-        "lang": "zh",
-        "notes": "本小时 WebSearch/WebFetch 新发现；标题与量子位高度同文，暂按自发",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "status": "online",
         "first_seen": "2026-09-16T12:33:42Z",
-        "last_seen": "2026-09-16T12:33:42Z",
-        "status": "online"
+        "last_seen": "2026-09-16T14:32:38Z",
+        "publish_time": "2026-09-16 16:05",
+        "source_type": "organic",
+        "is_anchor": false
       }
     ],
+    "organic_new": [],
     "deltas": {
       "has_previous": true,
-      "prev_ts_utc": "2026-09-16T11:07:33Z",
-      "prev_ts_shanghai": "2026-09-16 19:07",
+      "prev_ts_utc": "2026-09-16T13:27:28Z",
+      "prev_ts_shanghai": "2026-09-16 21:27",
       "github": {
         "stars": 0,
         "forks": 0,
@@ -101,15 +156,16 @@ window.LIMIX2_DATA = {
         "open_prs": 0
       },
       "hf": {
-        "likes": 0,
-        "downloads": 19,
-        "downloads_all_time": 19
+        "likes": 4,
+        "downloads": 0,
+        "downloads_all_time": 0
       },
       "seeded_count": 0,
-      "organic_count": 1,
-      "organic_new_count": 1
+      "organic_count": 0,
+      "organic_new_count": 0
     },
     "notes": [
+      "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
       "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
       "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
     ]
@@ -778,6 +834,330 @@ window.LIMIX2_DATA = {
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
+    },
+    {
+      "ts_utc": "2026-09-16T13:27:28Z",
+      "ts_shanghai": "2026-09-16 21:27",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4175,
+        "forks": 305,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 7,
+        "downloads": 19,
+        "downloads_all_time": 19,
+        "discussions": 0,
+        "source": "html:urllib",
+        "error": "We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API."
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 2,
+      "organic_count": 4,
+      "organic_media_count": 1,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot_blocked"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "浏览器公开页未见阅读/点赞/转发数字",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-16T12:26:00Z",
+        "prev_ts_shanghai": "2026-09-16 20:26",
+        "github": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 7,
+          "downloads": 0,
+          "downloads_all_time": 0
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
+    },
+    {
+      "ts_utc": "2026-09-16T14:32:38Z",
+      "ts_shanghai": "2026-09-16 22:32",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4175,
+        "forks": 305,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 11,
+        "downloads": 19,
+        "downloads_all_time": 19,
+        "discussions": 0,
+        "source": "html:urllib",
+        "error": "We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API."
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 2,
+      "organic_count": 4,
+      "organic_media_count": 1,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot_blocked"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "浏览器公开页未见阅读/点赞/转发数字",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-16T13:27:28Z",
+        "prev_ts_shanghai": "2026-09-16 21:27",
+        "github": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 4,
+          "downloads": 0,
+          "downloads_all_time": 0
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
     }
   ],
   "history": [
@@ -1444,6 +1824,330 @@ window.LIMIX2_DATA = {
       ],
       "organic_anchor_count": 3,
       "organic_media_count": 1
+    },
+    {
+      "ts_utc": "2026-09-16T13:27:28Z",
+      "ts_shanghai": "2026-09-16 21:27",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4175,
+        "forks": 305,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 7,
+        "downloads": 19,
+        "downloads_all_time": 19,
+        "discussions": 0,
+        "source": "html:urllib",
+        "error": "We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API."
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 2,
+      "organic_count": 4,
+      "organic_media_count": 1,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot_blocked"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "浏览器公开页未见阅读/点赞/转发数字",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-16T13:27:28Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-16T12:26:00Z",
+        "prev_ts_shanghai": "2026-09-16 20:26",
+        "github": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 7,
+          "downloads": 0,
+          "downloads_all_time": 0
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
+    },
+    {
+      "ts_utc": "2026-09-16T14:32:38Z",
+      "ts_shanghai": "2026-09-16 22:32",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4175,
+        "forks": 305,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 11,
+        "downloads": 19,
+        "downloads_all_time": 19,
+        "discussions": 0,
+        "source": "html:urllib",
+        "error": "We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API."
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 2,
+      "organic_count": 4,
+      "organic_media_count": 1,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot_blocked"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "note": "浏览器公开页未见阅读/点赞/转发数字",
+            "captured_at_shanghai": "2026-09-16 20:49",
+            "method": "browser_screenshot"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-16T14:32:38Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-16T13:27:28Z",
+        "prev_ts_shanghai": "2026-09-16 21:27",
+        "github": {
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 0,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 4,
+          "downloads": 0,
+          "downloads_all_time": 0
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
     }
   ],
   "seeded": [
@@ -1458,13 +2162,21 @@ window.LIMIX2_DATA = {
       "publish_time": null,
       "publish_time_note": "页面未解析到精确发布时间；文内称「今天」，对齐开源日 2026-09-16",
       "first_seen": "2026-09-16T06:53:21Z",
-      "last_seen": "2026-09-16T12:26:00Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
-      "engagement": {},
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "comments": null,
+        "note": "微信页环境异常需验证，未能打开正文，互动数未公开/未采集",
+        "captured_at_shanghai": "2026-09-16 20:49",
+        "method": "browser_screenshot_blocked"
+      },
       "fetch": {
         "ok": true,
         "method": "urllib",
-        "fetched_at_utc": "2026-09-16T12:26:00Z"
+        "fetched_at_utc": "2026-09-16T14:32:38Z"
       }
     },
     {
@@ -1477,14 +2189,23 @@ window.LIMIX2_DATA = {
       "notes": "用户确认投放（约稿）；明确 400M / TabArena·BCCO·TALENT / arXiv:2609.17488；页面发布时间 2026-09-16 14:32",
       "publish_time": "2026-09-16 14:32:31",
       "first_seen": "2026-09-16T08:12:50Z",
-      "last_seen": "2026-09-16T12:26:00Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
       "fetch": {
         "ok": true,
         "method": "urllib",
-        "fetched_at_utc": "2026-09-16T12:26:00Z"
+        "fetched_at_utc": "2026-09-16T14:32:38Z"
       },
-      "owner": "约稿媒体"
+      "owner": "约稿媒体",
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "comments": null,
+        "note": "浏览器公开页未见阅读/点赞/转发数字",
+        "captured_at_shanghai": "2026-09-16 20:49",
+        "method": "browser_screenshot"
+      }
     }
   ],
   "organic": [
@@ -1497,7 +2218,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "官方代码仓锚点；整仓含历史模型，不等同于仅 LimiX-2",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-16T12:26:00Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -1514,7 +2235,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "LimiX-2（400M）模型页",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-16T12:26:00Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -1531,7 +2252,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "LimiX-2 技术报告",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-16T12:26:00Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -1548,13 +2269,23 @@ window.LIMIX2_DATA = {
       "lang": "zh",
       "notes": "确认指向 LimiX-2（400M / arXiv 2609.17488）；标题与量子位约稿高度同文，暂按自发转载计，若亦为约稿请改入 seeded",
       "first_seen": "2026-09-16T12:33:42Z",
-      "last_seen": "2026-09-16T12:33:42Z",
+      "last_seen": "2026-09-16T14:32:38Z",
       "status": "online",
       "published_hint": "2026-09-16 16:05",
       "fetch": {
         "ok": true,
         "method": "WebFetch",
         "fetched_at_utc": "2026-09-16T12:33:42Z"
+      },
+      "engagement": {
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "comments": 0,
+        "favorites": 0,
+        "note": "页面可见评论0、收藏0人；分享无数字；阅读量未公开",
+        "captured_at_shanghai": "2026-09-16 20:49",
+        "method": "browser_screenshot"
       }
     }
   ],
