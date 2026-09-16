@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": false,
   "headers": [
     {
       "source": "/data.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=60, stale-while-revalidate=300" }
+      ]
+    },
+    {
+      "source": "/data.json",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=60, stale-while-revalidate=300" }
       ]
