@@ -1,6 +1,6 @@
 window.LIMIX2_DATA = {
-  "generated_at_utc": "2026-09-16T12:26:12Z",
-  "generated_at_shanghai": "2026-09-16 20:26",
+  "generated_at_utc": "2026-09-16T12:33:42Z",
+  "generated_at_shanghai": "2026-09-16 20:33",
   "project": "LimiX-2",
   "warnings": [
     "GitHub stars/forks 为 limix-ldm-ai/LimiX 整仓累计，非 LimiX-2 单独指标。",
@@ -47,7 +47,7 @@ window.LIMIX2_DATA = {
       "reason": "无可用 X/Twitter MCP 或额度时跳过"
     },
     "seeded_count": 2,
-    "organic_count": 3,
+    "organic_count": 4,
     "seeded": [
       {
         "id": "wechat-official-20260916",
@@ -74,7 +74,20 @@ window.LIMIX2_DATA = {
         "fetch_ok": true
       }
     ],
-    "organic_new": [],
+    "organic_new": [
+      {
+        "id": "organic-leiphone-20260916-limix2",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "雷峰网",
+        "source_type": "organic",
+        "lang": "zh",
+        "notes": "本小时 WebSearch/WebFetch 新发现；标题与量子位高度同文，暂按自发",
+        "first_seen": "2026-09-16T12:33:42Z",
+        "last_seen": "2026-09-16T12:33:42Z",
+        "status": "online"
+      }
+    ],
     "deltas": {
       "has_previous": true,
       "prev_ts_utc": "2026-09-16T11:07:33Z",
@@ -92,8 +105,8 @@ window.LIMIX2_DATA = {
         "downloads_all_time": 19
       },
       "seeded_count": 0,
-      "organic_count": 0,
-      "organic_new_count": 0
+      "organic_count": 1,
+      "organic_new_count": 1
     },
     "notes": [
       "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
@@ -685,7 +698,7 @@ window.LIMIX2_DATA = {
         "reason": "无可用 X/Twitter MCP 或额度时跳过"
       },
       "seeded_count": 2,
-      "organic_count": 3,
+      "organic_count": 4,
       "seeded": [
         {
           "id": "wechat-official-20260916",
@@ -712,7 +725,20 @@ window.LIMIX2_DATA = {
           "fetch_ok": true
         }
       ],
-      "organic_new": [],
+      "organic_new": [
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "source_type": "organic",
+          "lang": "zh",
+          "notes": "本小时 WebSearch/WebFetch 新发现；标题与量子位高度同文，暂按自发",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-16T12:33:42Z",
+          "status": "online"
+        }
+      ],
       "deltas": {
         "has_previous": true,
         "prev_ts_utc": "2026-09-16T11:07:33Z",
@@ -730,8 +756,8 @@ window.LIMIX2_DATA = {
           "downloads_all_time": 19
         },
         "seeded_count": 0,
-        "organic_count": 0,
-        "organic_new_count": 0
+        "organic_count": 1,
+        "organic_new_count": 1
       },
       "notes": [
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
@@ -830,6 +856,24 @@ window.LIMIX2_DATA = {
         "ok": true,
         "method": "urllib",
         "fetched_at_utc": "2026-09-16T06:54:54Z"
+      }
+    },
+    {
+      "id": "organic-leiphone-20260916-limix2",
+      "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+      "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+      "channel": "雷峰网",
+      "source_type": "organic",
+      "lang": "zh",
+      "notes": "确认指向 LimiX-2（400M / arXiv 2609.17488）；标题与量子位约稿高度同文，暂按自发转载计，若亦为约稿请改入 seeded",
+      "first_seen": "2026-09-16T12:33:42Z",
+      "last_seen": "2026-09-16T12:33:42Z",
+      "status": "online",
+      "published_hint": "2026-09-16 16:05",
+      "fetch": {
+        "ok": true,
+        "method": "WebFetch",
+        "fetched_at_utc": "2026-09-16T12:33:42Z"
       }
     }
   ]
