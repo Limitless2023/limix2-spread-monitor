@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LimiX-2 传播监测</title>
+  <script src="./data.js"></script>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121a2b;
+      --panel2: #182338;
+      --text: #e8eefc;
+      --muted: #9aa8c7;
+      --line: #24314d;
+      --accent: #5b8cff;
+      --good: #3dd68c;
+      --warn: #f5a524;
+      --bad: #f31260;
+      --seed: #7c5cff;
+      --org: #2ec4b6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Noto Sans SC", "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    header {
+      padding: 28px 24px 12px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.6rem; letter-spacing: 0.02em; }
+    .sub { color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+    .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .badge {
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .badge.warn { color: var(--warn); border-color: #5a4218; background: #2a2110; }
+    .badge.seed { color: #cbb8ff; border-color: #3d2f7a; }
+    .badge.org { color: #9ff0e6; border-color: #1d5c55; }
+    main { max-width: 1200px; margin: 0 auto; padding: 8px 24px 48px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 16px 0;
+    }
+    @media (max-width: 960px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+    .card {
+      background: linear-gradient(180deg, var(--panel) 0%, #0f1728 100%);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+    .card .label { color: var(--muted); font-size: 0.8rem; }
+    .card .value { font-size: 1.55rem; font-weight: 700; margin-top: 6px; }
+    .card .delta { margin-top: 6px; font-size: 0.85rem; color: var(--muted); }
+    .delta.up { color: var(--good); }
+    .delta.down { color: var(--bad); }
+    .delta.flat { color: var(--muted); }
+    .warn-box {
+      background: #2a2110;
+      border: 1px solid #5a4218;
+      color: #ffd89a;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 0.9rem;
+      line-height: 1.55;
+      margin: 8px 0 18px;
+    }
+    .section-title {
+      margin: 22px 0 10px;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .dot.seed { background: var(--seed); }
+    .dot.org { background: var(--org); }
+    .charts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    @media (max-width: 860px) { .charts { grid-template-columns: 1fr; } }
+    .chart-card { min-height: 260px; }
+    canvas { width: 100%; height: 220px; display: block; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty { color: var(--muted); padding: 12px 0; }
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 40px;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    .notes li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LimiX-2 传播监测</h1>
+    <div class="sub">
+      跟踪 <strong>LimiX-2（400M）</strong> 开源后的小时级传播：区分<strong>投放</strong>与<strong>自发</strong>。
+      请勿与旧版 <strong>LimiX-2M</strong>（约 2M 参数）混淆。
+    </div>
+    <div class="badges" id="badges"></div>
+  </header>
+  <main>
+    <div class="warn-box" id="warnings"></div>
+    <div class="grid" id="metrics"></div>
+
+    <div class="section-title">小时级趋势</div>
+    <div class="charts">
+      <div class="card chart-card">
+        <div class="label">GitHub Stars / Forks（整仓累计）</div>
+        <canvas id="chartGh" width="600" height="220"></canvas>
+      </div>
+      <div class="card chart-card">
+        <div class="label">Hugging Face Likes / Downloads</div>
+        <canvas id="chartHf" width="600" height="220"></canvas>
+      </div>
+      <div class="card chart-card">
+        <div class="label">投放数 / 自发数</div>
+        <canvas id="chartCounts" width="600" height="220"></canvas>
+      </div>
+      <div class="card chart-card">
+        <div class="label">本小时新增自发</div>
+        <canvas id="chartNew" width="600" height="220"></canvas>
+      </div>
+    </div>
+
+    <div class="section-title"><span class="dot seed"></span> 投放（seeded）</div>
+    <div class="card"><div id="tableSeeded"></div></div>
+
+    <div class="section-title"><span class="dot org"></span> 自发（organic）</div>
+    <div class="card"><div id="tableOrganic"></div></div>
+
+    <div class="section-title">本小时备注</div>
+    <div class="card"><ul class="notes" id="notes"></ul></div>
+  </main>
+  <footer id="footer"></footer>
+
+  <script>
+    const DATA = window.LIMIX2_DATA || null;
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function fmt(v) {
+      if (v === null || v === undefined || v === "") return "—";
+      if (typeof v === "number") return v.toLocaleString("zh-CN");
+      return String(v);
+    }
+
+    function deltaHtml(dv) {
+      if (dv === null || dv === undefined) return '<span class="delta flat">较上小时 —</span>';
+      const cls = dv > 0 ? "up" : dv < 0 ? "down" : "flat";
+      const sign = dv > 0 ? "+" : "";
+      return `<span class="delta ${cls}">较上小时 ${sign}${dv}</span>`;
+    }
+
+    function metricCard(label, value, delta) {
+      return `<div class="card"><div class="label">${esc(label)}</div><div class="value">${fmt(value)}</div>${deltaHtml(delta)}</div>`;
+    }
+
+    function drawLineChart(canvas, series, colors) {
+      const ctx = canvas.getContext("2d");
+      const w = canvas.width, h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+      ctx.fillStyle = "#0f1728";
+      ctx.fillRect(0, 0, w, h);
+
+      const pad = { l: 44, r: 12, t: 16, b: 28 };
+      const labels = (series[0] && series[0].xs) || [];
+      let max = 1, min = 0;
+      series.forEach(s => s.ys.forEach(v => {
+        if (v == null || Number.isNaN(v)) return;
+        max = Math.max(max, v);
+        min = Math.min(min, v);
+      }));
+      if (max === min) max = min + 1;
+
+      // grid
+      ctx.strokeStyle = "#24314d";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 4; i++) {
+        const y = pad.t + (h - pad.t - pad.b) * i / 3;
+        ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(w - pad.r, y); ctx.stroke();
+        const val = max - (max - min) * i / 3;
+        ctx.fillStyle = "#9aa8c7";
+        ctx.font = "11px sans-serif";
+        ctx.fillText(String(Math.round(val)), 6, y + 4);
+      }
+
+      function xAt(i, n) {
+        if (n <= 1) return pad.l + (w - pad.l - pad.r) / 2;
+        return pad.l + (w - pad.l - pad.r) * i / (n - 1);
+      }
+      function yAt(v) {
+        return pad.t + (h - pad.t - pad.b) * (1 - (v - min) / (max - min));
+      }
+
+      series.forEach((s, si) => {
+        const pts = [];
+        for (let i = 0; i < s.ys.length; i++) {
+          const v = s.ys[i];
+          if (v == null || Number.isNaN(v)) continue;
+          pts.push([xAt(i, s.ys.length), yAt(v)]);
+        }
+        if (!pts.length) return;
+        ctx.strokeStyle = colors[si % colors.length];
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        pts.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1]));
+        ctx.stroke();
+        ctx.fillStyle = colors[si % colors.length];
+        pts.forEach(p => { ctx.beginPath(); ctx.arc(p[0], p[1], 2.5, 0, Math.PI * 2); ctx.fill(); });
+      });
+
+      // legend
+      let lx = pad.l;
+      series.forEach((s, si) => {
+        ctx.fillStyle = colors[si % colors.length];
+        ctx.fillRect(lx, 4, 10, 10);
+        ctx.fillStyle = "#c9d4ef";
+        ctx.font = "12px sans-serif";
+        ctx.fillText(s.name, lx + 14, 13);
+        lx += ctx.measureText(s.name).width + 36;
+      });
+
+      if (labels.length) {
+        ctx.fillStyle = "#9aa8c7";
+        ctx.font = "10px sans-serif";
+        const show = [0, Math.floor((labels.length - 1) / 2), labels.length - 1];
+        show.forEach(i => {
+          if (i < 0 || i >= labels.length) return;
+          const t = labels[i];
+          ctx.fillText(t, xAt(i, labels.length) - 18, h - 8);
+        });
+      }
+    }
+
+    function tableHtml(items) {
+      if (!items || !items.length) return '<div class="empty">暂无记录</div>';
+      const rows = items.map(it => {
+        const url = it.url || "";
+        return `<tr>
+          <td>${esc(it.title || "—")}</td>
+          <td>${esc(it.channel || "—")}</td>
+          <td>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a>` : "—"}</td>
+          <td>${esc(it.first_seen || "—")}</td>
+          <td>${esc(it.last_seen || "—")}</td>
+          <td>${esc(it.status || "—")}</td>
+        </tr>`;
+      }).join("");
+      return `<table>
+        <thead><tr><th>标题</th><th>渠道</th><th>URL</th><th>首次发现</th><th>最近见到</th><th>状态</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+    }
+
+    if (!DATA || !DATA.latest) {
+      document.getElementById("warnings").textContent = "未加载到 data.js（window.LIMIX2_DATA）。请先运行 scripts/collect_snapshot.py。";
+      document.getElementById("tableSeeded").innerHTML = '<div class="empty">无数据</div>';
+      document.getElementById("tableOrganic").innerHTML = '<div class="empty">无数据</div>';
+    } else {
+      const L = DATA.latest;
+      const d = L.deltas || {};
+      const dg = d.github || {};
+      const dh = d.hf || {};
+      const g = L.github || {};
+      const h = L.hf || {};
+      const a = L.arxiv || {};
+
+      document.getElementById("badges").innerHTML = [
+        `<span class="badge">更新（上海） ${esc(L.ts_shanghai || DATA.generated_at_shanghai || "—")}</span>`,
+        `<span class="badge">UTC ${esc(L.ts_utc || "—")}</span>`,
+        `<span class="badge seed">投放 ${fmt(L.seeded_count)}</span>`,
+        `<span class="badge org">自发 ${fmt(L.organic_count)}</span>`,
+        `<span class="badge">arXiv ${a.online ? "在线" : "未知"}</span>`,
+        `<span class="badge">${(L.x && L.x.skipped) ? "X 已跳过" : "X"}</span>`,
+        `<span class="badge warn">LimiX-2 ≠ LimiX-2M</span>`,
+      ].join("");
+
+      const warns = (DATA.warnings || []).concat(g.warning ? [g.warning] : []);
+      document.getElementById("warnings").innerHTML = warns.map(w => `• ${esc(w)}`).join("<br/>");
+
+      document.getElementById("metrics").innerHTML = [
+        metricCard("GitHub Stars（整仓）", g.stars, dg.stars),
+        metricCard("GitHub Forks（整仓）", g.forks, dg.forks),
+        metricCard("HF Likes", h.likes, dh.likes),
+        metricCard("HF Downloads", h.downloads, dh.downloads),
+        metricCard("Watchers", g.watchers, dg.watchers),
+        metricCard("Open Issues", g.open_issues, dg.open_issues),
+        metricCard("投放条目", L.seeded_count, d.seeded_count),
+        metricCard("自发条目", L.organic_count, d.organic_count),
+      ].join("");
+
+      const snaps = DATA.snapshots || [];
+      const xs = snaps.map(s => (s.ts_shanghai || "").slice(5)); // MM-DD HH:MM
+      drawLineChart(document.getElementById("chartGh"), [
+        { name: "Stars", xs, ys: snaps.map(s => (s.github || {}).stars) },
+        { name: "Forks", xs, ys: snaps.map(s => (s.github || {}).forks) },
+      ], ["#5b8cff", "#f5a524"]);
+      drawLineChart(document.getElementById("chartHf"), [
+        { name: "Likes", xs, ys: snaps.map(s => (s.hf || {}).likes) },
+        { name: "Downloads", xs, ys: snaps.map(s => (s.hf || {}).downloads) },
+      ], ["#7c5cff", "#2ec4b6"]);
+      drawLineChart(document.getElementById("chartCounts"), [
+        { name: "投放", xs, ys: snaps.map(s => s.seeded_count) },
+        { name: "自发", xs, ys: snaps.map(s => s.organic_count) },
+      ], ["#7c5cff", "#2ec4b6"]);
+      drawLineChart(document.getElementById("chartNew"), [
+        { name: "新增自发", xs, ys: snaps.map(s => (s.organic_new || []).length) },
+      ], ["#3dd68c"]);
+
+      document.getElementById("tableSeeded").innerHTML = tableHtml(DATA.seeded || []);
+      document.getElementById("tableOrganic").innerHTML = tableHtml(DATA.organic || []);
+
+      const notes = L.notes || [];
+      document.getElementById("notes").innerHTML = notes.length
+        ? notes.map(n => `<li>${esc(n)}</li>`).join("")
+        : "<li>无</li>";
+
+      document.getElementById("footer").textContent =
+        `数据生成于 ${DATA.generated_at_shanghai || "—"}（上海） / ${DATA.generated_at_utc || "—"} UTC · 快照数 ${snaps.length} · file:// 或 Vercel 静态托管均可`;
+    }
+  </script>
+</body>
+</html>
