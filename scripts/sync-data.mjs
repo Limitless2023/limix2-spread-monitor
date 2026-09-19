@@ -2,6 +2,9 @@
 /**
  * 将采集器写入的 data.js 同步到 public/，并生成 data.json。
  * 兼容两种路径：仓库根目录 data.js，或 public/data.js。
+ *
+ * 先解析再写入：空文件或无法解析的 data.js 不得覆盖已有
+ * public/data.js / public/data.json，以免 prebuild 让 Vercel 构建失败。
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -31,10 +34,40 @@ if (!sourcePath) {
 }
 
 const source = fs.readFileSync(sourcePath, "utf8")
+const relativeSource = path.relative(root, sourcePath)
+
+if (!source.trim()) {
+  console.warn(
+    `${relativeSource} 为空，已跳过同步，保留现有 public/data.js 与 public/data.json。`,
+  )
+  process.exit(0)
+}
+
+let data
+try {
+  data = extract(source)
+} catch (err) {
+  const reason = err instanceof Error ? err.message : String(err)
+  console.warn(
+    `${relativeSource} 无法解析（${reason}），已跳过同步，保留现有 public/data.js 与 public/data.json。`,
+  )
+  process.exit(0)
+}
+
+let json
+try {
+  json = `${JSON.stringify(data, null, 2)}\n`
+} catch (err) {
+  const reason = err instanceof Error ? err.message : String(err)
+  console.warn(
+    `${relativeSource} 无法序列化为 JSON（${reason}），已跳过同步，保留现有 public/data.js 与 public/data.json。`,
+  )
+  process.exit(0)
+}
+
 if (sourcePath !== publicJs) {
   fs.copyFileSync(sourcePath, publicJs)
 }
 
-const data = extract(source)
-fs.writeFileSync(publicJson, `${JSON.stringify(data, null, 2)}\n`)
+fs.writeFileSync(publicJson, json)
 console.log(`已同步 ${path.relative(root, publicJs)} 与 ${path.relative(root, publicJson)}`)
