@@ -1,6 +1,6 @@
 window.LIMIX2_DATA = {
-  "generated_at_utc": "2026-09-18T12:35:54Z",
-  "generated_at_shanghai": "2026-09-18 20:35",
+  "generated_at_utc": "2026-09-21T01:35:37Z",
+  "generated_at_shanghai": "2026-09-21 09:35",
   "project": "LimiX-2",
   "warnings": [
     "GitHub stars/forks 为 limix-ldm-ai/LimiX 整仓累计，非 LimiX-2 单独指标。",
@@ -10,14 +10,14 @@ window.LIMIX2_DATA = {
     "媒体互动按小时留档，用于监测增长；公开页面采不到的字段保持 null。"
   ],
   "latest": {
-    "ts_utc": "2026-09-18T12:35:27Z",
-    "ts_shanghai": "2026-09-18 20:35",
+    "ts_utc": "2026-09-21T01:35:11Z",
+    "ts_shanghai": "2026-09-21 09:35",
     "github": {
       "url": "https://github.com/limix-ldm-ai/LimiX",
-      "stars": 4203,
+      "stars": 4231,
       "forks": 304,
       "watchers": 76,
-      "open_issues": 8,
+      "open_issues": 9,
       "open_prs": 0,
       "source": "html:urllib",
       "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
@@ -26,22 +26,22 @@ window.LIMIX2_DATA = {
     "hf": {
       "repo_id": "stable-ai/LimiX-2",
       "url": "https://huggingface.co/stable-ai/LimiX-2",
-      "likes": 38,
-      "downloads": 348,
-      "downloads_all_time": 348,
-      "discussions": 0,
-      "source": "html:urllib",
-      "error": "We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API."
+      "likes": 46,
+      "downloads": 1382,
+      "downloads_all_time": 1382,
+      "discussions": null,
+      "source": "api:urllib",
+      "error": null
     },
     "arxiv": {
       "id": "2609.17488",
       "url": "https://arxiv.org/abs/2609.17488",
       "online": true,
-      "title": null,
-      "published": null,
+      "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+      "published": "2026-09-15T17:30:02Z",
       "citation_count": null,
       "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
-      "source": "html:urllib",
+      "source": "api:urllib",
       "error": null
     },
     "x": {
@@ -61,14 +61,14 @@ window.LIMIX2_DATA = {
         "owner": "己方公众号",
         "status": "online",
         "first_seen": "2026-09-16T06:53:21Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "engagement": {
           "views": null,
           "likes": null,
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
         "fetch_ok": true
       },
@@ -80,14 +80,14 @@ window.LIMIX2_DATA = {
         "owner": "约稿媒体",
         "status": "online",
         "first_seen": "2026-09-16T08:12:50Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "engagement": {
           "views": null,
           "likes": null,
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
         "fetch_ok": true
       },
@@ -99,14 +99,14 @@ window.LIMIX2_DATA = {
         "owner": "约稿媒体",
         "status": "online",
         "first_seen": "2026-09-18T12:35:23Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "engagement": {
           "views": null,
           "likes": null,
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
         "fetch_ok": true
       }
@@ -119,7 +119,7 @@ window.LIMIX2_DATA = {
         "url": "https://github.com/limix-ldm-ai/LimiX",
         "status": "online",
         "first_seen": "2026-09-16T06:54:54Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": null,
         "source_type": "organic",
         "is_anchor": true
@@ -131,7 +131,7 @@ window.LIMIX2_DATA = {
         "url": "https://huggingface.co/stable-ai/LimiX-2",
         "status": "online",
         "first_seen": "2026-09-16T06:54:54Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": null,
         "source_type": "organic",
         "is_anchor": true
@@ -143,7 +143,7 @@ window.LIMIX2_DATA = {
         "url": "https://arxiv.org/abs/2609.17488",
         "status": "online",
         "first_seen": "2026-09-16T06:54:54Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": null,
         "source_type": "organic",
         "is_anchor": true
@@ -155,7 +155,7 @@ window.LIMIX2_DATA = {
         "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
         "status": "online",
         "first_seen": "2026-09-16T12:33:42Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": "2026-09-16 16:05",
         "source_type": "organic",
         "is_anchor": false
@@ -203,7 +203,7 @@ window.LIMIX2_DATA = {
         "url": "https://kx.umi6.com/article/37892.html",
         "status": "online",
         "first_seen": "2026-09-17T08:16:06Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": "2026-09-16 15:41:57",
         "source_type": "organic",
         "is_anchor": false
@@ -215,7 +215,7 @@ window.LIMIX2_DATA = {
         "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
         "status": "online",
         "first_seen": "2026-09-18T01:21:36Z",
-        "last_seen": "2026-09-18T12:35:27Z",
+        "last_seen": "2026-09-21T01:35:11Z",
         "publish_time": "2026-09-17 15:33:49",
         "source_type": "organic",
         "is_anchor": false
@@ -225,7 +225,7 @@ window.LIMIX2_DATA = {
         "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
         "channel": "新京报",
         "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
-        "status": "online",
+        "status": "fetch_failed",
         "first_seen": "2026-09-18T01:21:36Z",
         "last_seen": "2026-09-18T12:35:27Z",
         "publish_time": "2026-09-17 21:57",
@@ -248,9 +248,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "seeded-qbitai-20260916-limix2",
@@ -265,9 +265,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "seeded-qbitai-wechat-20260918-limix2",
@@ -282,9 +282,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-leiphone-20260916-limix2",
@@ -299,9 +299,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": 0,
           "comments": 0,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-wechat-ldm-qianyan-20260916-limix2",
@@ -316,9 +316,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-wechat-yuanqi-20260916-limix2",
@@ -333,9 +333,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-wechat-changshou-20260916-digest",
@@ -350,9 +350,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-aiyoumi-20260916-limix2",
@@ -367,9 +367,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-hebccw-20260917-limix2",
@@ -384,9 +384,9 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       },
       {
         "id": "organic-bjnews-20260917-limix2",
@@ -401,34 +401,33 @@ window.LIMIX2_DATA = {
           "shares": null,
           "favorites": null,
           "comments": null,
-          "captured_at": "2026-09-18T12:35:27Z"
+          "captured_at": "2026-09-21T01:35:11Z"
         },
-        "captured_at": "2026-09-18T12:35:27Z"
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "deltas": {
       "has_previous": true,
-      "prev_ts_utc": "2026-09-18T10:35:47Z",
-      "prev_ts_shanghai": "2026-09-18 18:35",
+      "prev_ts_utc": "2026-09-18T12:35:27Z",
+      "prev_ts_shanghai": "2026-09-18 20:35",
       "github": {
-        "stars": 1,
+        "stars": 28,
         "forks": 0,
         "watchers": 0,
-        "open_issues": 0,
+        "open_issues": 1,
         "open_prs": 0
       },
       "hf": {
-        "likes": 1,
-        "downloads": 0,
-        "downloads_all_time": 0
+        "likes": 8,
+        "downloads": 1034,
+        "downloads_all_time": 1034
       },
-      "seeded_count": 1,
+      "seeded_count": 0,
       "organic_count": 0,
       "organic_new_count": 0
     },
     "notes": [
       "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
-      "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
       "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
     ]
   },
@@ -13205,6 +13204,428 @@ window.LIMIX2_DATA = {
       "notes": [
         "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
+    },
+    {
+      "ts_utc": "2026-09-21T01:35:11Z",
+      "ts_shanghai": "2026-09-21 09:35",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4231,
+        "forks": 304,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 46,
+        "downloads": 1382,
+        "downloads_all_time": 1382,
+        "discussions": null,
+        "source": "api:urllib",
+        "error": null
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 3,
+      "organic_count": 10,
+      "organic_media_count": 7,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-wechat-20260918-limix2",
+          "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-18T12:35:23Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-yuanqi-20260916-limix2",
+          "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-changshou-20260916-digest",
+          "title": "每日战略资讯【2026-09-16】",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-aiyoumi-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "AI优秘圈",
+          "url": "https://kx.umi6.com/article/37892.html",
+          "status": "online",
+          "first_seen": "2026-09-17T08:16:06Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-16 15:41:57",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-hebccw-20260917-limix2",
+          "title": "稳准智能LimiX-2发布 模型能力登顶国际榜单",
+          "channel": "长城网",
+          "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
+          "status": "online",
+          "first_seen": "2026-09-18T01:21:36Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-17 15:33:49",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-bjnews-20260917-limix2",
+          "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
+          "channel": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
+          "status": "fetch_failed",
+          "first_seen": "2026-09-18T01:21:36Z",
+          "last_seen": "2026-09-18T12:35:27Z",
+          "publish_time": "2026-09-17 21:57",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "seeded-qbitai-wechat-20260918-limix2",
+          "media_id": "seeded-qbitai-wechat-20260918-limix2",
+          "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "media_id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-yuanqi-20260916-limix2",
+          "media_id": "organic-wechat-yuanqi-20260916-limix2",
+          "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-changshou-20260916-digest",
+          "media_id": "organic-wechat-changshou-20260916-digest",
+          "title": "每日战略资讯【2026-09-16】",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-aiyoumi-20260916-limix2",
+          "media_id": "organic-aiyoumi-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "AI优秘圈",
+          "url": "https://kx.umi6.com/article/37892.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": 666,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-hebccw-20260917-limix2",
+          "media_id": "organic-hebccw-20260917-limix2",
+          "title": "稳准智能LimiX-2发布 模型能力登顶国际榜单",
+          "channel": "长城网",
+          "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-bjnews-20260917-limix2",
+          "media_id": "organic-bjnews-20260917-limix2",
+          "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
+          "channel": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        }
+      ],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-18T12:35:27Z",
+        "prev_ts_shanghai": "2026-09-18 20:35",
+        "github": {
+          "stars": 28,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 1,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 8,
+          "downloads": 1034,
+          "downloads_all_time": 1034
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ]
     }
@@ -25984,6 +26405,428 @@ window.LIMIX2_DATA = {
         "HF API: We had to rate limit your IP (104.30.180.108). To continue using our service, create a HF account or login to your existing account, and make sure you pass a HF_TOKEN if you're using the API.",
         "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
       ]
+    },
+    {
+      "ts_utc": "2026-09-21T01:35:11Z",
+      "ts_shanghai": "2026-09-21 09:35",
+      "github": {
+        "url": "https://github.com/limix-ldm-ai/LimiX",
+        "stars": 4231,
+        "forks": 304,
+        "watchers": 76,
+        "open_issues": 9,
+        "open_prs": 0,
+        "source": "html:urllib",
+        "error": "API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "warning": "仓库 stars/forks 为整仓累计，非 LimiX-2 单独统计"
+      },
+      "hf": {
+        "repo_id": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2",
+        "likes": 46,
+        "downloads": 1382,
+        "downloads_all_time": 1382,
+        "discussions": null,
+        "source": "api:urllib",
+        "error": null
+      },
+      "arxiv": {
+        "id": "2609.17488",
+        "url": "https://arxiv.org/abs/2609.17488",
+        "online": true,
+        "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+        "published": "2026-09-15T17:30:02Z",
+        "citation_count": null,
+        "citation_note": "arXiv 页面通常不提供引用数；未接外部引文库则保持 null",
+        "source": "api:urllib",
+        "error": null
+      },
+      "x": {
+        "skipped": true,
+        "reason": "无可用 X/Twitter MCP 或额度时跳过"
+      },
+      "seeded_count": 3,
+      "organic_count": 10,
+      "organic_media_count": 7,
+      "organic_anchor_count": 3,
+      "seeded": [
+        {
+          "id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "owner": "己方公众号",
+          "status": "online",
+          "first_seen": "2026-09-16T06:53:21Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-16T08:12:50Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        },
+        {
+          "id": "seeded-qbitai-wechat-20260918-limix2",
+          "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+          "owner": "约稿媒体",
+          "status": "online",
+          "first_seen": "2026-09-18T12:35:23Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "fetch_ok": true
+        }
+      ],
+      "organic": [
+        {
+          "id": "organic-https-github-com-limix-ldm-ai-LimiX",
+          "title": "limix-ldm-ai/LimiX (GitHub)",
+          "channel": "GitHub",
+          "url": "https://github.com/limix-ldm-ai/LimiX",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-huggingface-co-stable-ai-LimiX-2",
+          "title": "stable-ai/LimiX-2 (Hugging Face)",
+          "channel": "Hugging Face",
+          "url": "https://huggingface.co/stable-ai/LimiX-2",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-https-arxiv-org-abs-2609-17488",
+          "title": "arXiv:2609.17488 LimiX-2",
+          "channel": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17488",
+          "status": "online",
+          "first_seen": "2026-09-16T06:54:54Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": true
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "status": "online",
+          "first_seen": "2026-09-16T12:33:42Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-16 16:05",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-yuanqi-20260916-limix2",
+          "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-wechat-changshou-20260916-digest",
+          "title": "每日战略资讯【2026-09-16】",
+          "channel": "微信公众号",
+          "url": null,
+          "status": "indexed_sogou",
+          "first_seen": "2026-09-16T16:57:39Z",
+          "last_seen": "2026-09-16T16:57:39Z",
+          "publish_time": null,
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-aiyoumi-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "AI优秘圈",
+          "url": "https://kx.umi6.com/article/37892.html",
+          "status": "online",
+          "first_seen": "2026-09-17T08:16:06Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-16 15:41:57",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-hebccw-20260917-limix2",
+          "title": "稳准智能LimiX-2发布 模型能力登顶国际榜单",
+          "channel": "长城网",
+          "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
+          "status": "online",
+          "first_seen": "2026-09-18T01:21:36Z",
+          "last_seen": "2026-09-21T01:35:11Z",
+          "publish_time": "2026-09-17 15:33:49",
+          "source_type": "organic",
+          "is_anchor": false
+        },
+        {
+          "id": "organic-bjnews-20260917-limix2",
+          "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
+          "channel": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
+          "status": "fetch_failed",
+          "first_seen": "2026-09-18T01:21:36Z",
+          "last_seen": "2026-09-18T12:35:27Z",
+          "publish_time": "2026-09-17 21:57",
+          "source_type": "organic",
+          "is_anchor": false
+        }
+      ],
+      "organic_new": [],
+      "media_engagement": [
+        {
+          "id": "wechat-official-20260916",
+          "media_id": "wechat-official-20260916",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "seeded-qbitai-20260916-limix2",
+          "media_id": "seeded-qbitai-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "量子位",
+          "url": "https://www.qbitai.com/2026/09/490400.html",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "seeded-qbitai-wechat-20260918-limix2",
+          "media_id": "seeded-qbitai-wechat-20260918-limix2",
+          "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+          "channel": "微信公众号",
+          "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+          "source_type": "seeded",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-leiphone-20260916-limix2",
+          "media_id": "organic-leiphone-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": 0,
+            "comments": 0,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "media_id": "organic-wechat-ldm-qianyan-20260916-limix2",
+          "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-yuanqi-20260916-limix2",
+          "media_id": "organic-wechat-yuanqi-20260916-limix2",
+          "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-wechat-changshou-20260916-digest",
+          "media_id": "organic-wechat-changshou-20260916-digest",
+          "title": "每日战略资讯【2026-09-16】",
+          "channel": "微信公众号",
+          "url": null,
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-aiyoumi-20260916-limix2",
+          "media_id": "organic-aiyoumi-20260916-limix2",
+          "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+          "channel": "AI优秘圈",
+          "url": "https://kx.umi6.com/article/37892.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": 666,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-hebccw-20260917-limix2",
+          "media_id": "organic-hebccw-20260917-limix2",
+          "title": "稳准智能LimiX-2发布 模型能力登顶国际榜单",
+          "channel": "长城网",
+          "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        {
+          "id": "organic-bjnews-20260917-limix2",
+          "media_id": "organic-bjnews-20260917-limix2",
+          "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
+          "channel": "新京报",
+          "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
+          "source_type": "organic",
+          "engagement": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "favorites": null,
+            "comments": null,
+            "captured_at": "2026-09-21T01:35:11Z"
+          },
+          "captured_at": "2026-09-21T01:35:11Z"
+        }
+      ],
+      "deltas": {
+        "has_previous": true,
+        "prev_ts_utc": "2026-09-18T12:35:27Z",
+        "prev_ts_shanghai": "2026-09-18 20:35",
+        "github": {
+          "stars": 28,
+          "forks": 0,
+          "watchers": 0,
+          "open_issues": 1,
+          "open_prs": 0
+        },
+        "hf": {
+          "likes": 8,
+          "downloads": 1034,
+          "downloads_all_time": 1034
+        },
+        "seeded_count": 0,
+        "organic_count": 0,
+        "organic_new_count": 0
+      },
+      "notes": [
+        "GitHub API: API rate limit exceeded for 104.30.180.108. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+        "有机发现：本采集器仅登记官方锚点（GH/HF/arXiv）；中文网页增量请由代理 WebSearch 补充，避免虚构。"
+      ]
     }
   ],
   "media_engagement_history": {
@@ -26735,6 +27578,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "wechat-official-20260916",
+        "media_id": "wechat-official-20260916",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/JetlC_eGhm-a0E0JIeOr-w",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "seeded-qbitai-20260916-limix2": [
@@ -27434,6 +28294,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "seeded-qbitai-20260916-limix2",
+        "media_id": "seeded-qbitai-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "量子位",
+        "url": "https://www.qbitai.com/2026/09/490400.html",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-leiphone-20260916-limix2": [
@@ -28065,6 +28942,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-leiphone-20260916-limix2",
+        "media_id": "organic-leiphone-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "雷峰网",
+        "url": "https://www.leiphone.com/category/industrynews/HQ8yti3MYREtevrN.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": 0,
+          "comments": 0,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-wechat-ldm-qianyan-20260916-limix2": [
@@ -28662,6 +29556,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-wechat-ldm-qianyan-20260916-limix2",
+        "media_id": "organic-wechat-ldm-qianyan-20260916-limix2",
+        "title": "LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": null,
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-wechat-yuanqi-20260916-limix2": [
@@ -29259,6 +30170,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-wechat-yuanqi-20260916-limix2",
+        "media_id": "organic-wechat-yuanqi-20260916-limix2",
+        "title": "园企硬实力丨LimiX-2 发布，登顶国际主流Benchmark榜单！",
+        "channel": "微信公众号",
+        "url": null,
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-wechat-changshou-20260916-digest": [
@@ -29856,6 +30784,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-wechat-changshou-20260916-digest",
+        "media_id": "organic-wechat-changshou-20260916-digest",
+        "title": "每日战略资讯【2026-09-16】",
+        "channel": "微信公众号",
+        "url": null,
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-aiyoumi-20260916-limix2": [
@@ -30232,6 +31177,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-aiyoumi-20260916-limix2",
+        "media_id": "organic-aiyoumi-20260916-limix2",
+        "title": "清华稳准智能联合发布LimiX-2，结构化数据基础模型登顶国际评测榜单",
+        "channel": "AI优秘圈",
+        "url": "https://kx.umi6.com/article/37892.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": 666,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-hebccw-20260917-limix2": [
@@ -30319,6 +31281,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-hebccw-20260917-limix2",
+        "media_id": "organic-hebccw-20260917-limix2",
+        "title": "稳准智能LimiX-2发布 模型能力登顶国际榜单",
+        "channel": "长城网",
+        "url": "https://news.hebccw.cn/system/2026/09/17/102224132.shtml",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "organic-bjnews-20260917-limix2": [
@@ -30406,6 +31385,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "organic-bjnews-20260917-limix2",
+        "media_id": "organic-bjnews-20260917-limix2",
+        "title": "清华团队结构化数据基础模型LimiX-2登顶国际榜单",
+        "channel": "新京报",
+        "url": "https://www.bjnews.com.cn/detail/1789650378129491.html",
+        "source_type": "organic",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ],
     "seeded-qbitai-wechat-20260918-limix2": [
@@ -30425,6 +31421,23 @@ window.LIMIX2_DATA = {
           "captured_at": "2026-09-18T12:35:27Z"
         },
         "captured_at": "2026-09-18T12:35:27Z"
+      },
+      {
+        "id": "seeded-qbitai-wechat-20260918-limix2",
+        "media_id": "seeded-qbitai-wechat-20260918-limix2",
+        "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+        "channel": "微信公众号",
+        "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+        "source_type": "seeded",
+        "engagement": {
+          "views": null,
+          "likes": null,
+          "shares": null,
+          "favorites": null,
+          "comments": null,
+          "captured_at": "2026-09-21T01:35:11Z"
+        },
+        "captured_at": "2026-09-21T01:35:11Z"
       }
     ]
   },
@@ -30440,7 +31453,7 @@ window.LIMIX2_DATA = {
       "publish_time": null,
       "publish_time_note": "页面未解析到精确发布时间；文内称「今天」，对齐开源日 2026-09-16",
       "first_seen": "2026-09-16T06:53:21Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "engagement": {
         "views": null,
@@ -30454,7 +31467,7 @@ window.LIMIX2_DATA = {
       "fetch": {
         "ok": true,
         "method": "urllib",
-        "fetched_at_utc": "2026-09-18T12:35:27Z"
+        "fetched_at_utc": "2026-09-21T01:35:11Z"
       },
       "account": "稳准智能"
     },
@@ -30468,12 +31481,12 @@ window.LIMIX2_DATA = {
       "notes": "用户确认投放（约稿）；明确 400M / TabArena·BCCO·TALENT / arXiv:2609.17488；页面发布时间 2026-09-16 14:32",
       "publish_time": "2026-09-16 14:32:31",
       "first_seen": "2026-09-16T08:12:50Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "fetch": {
         "ok": true,
         "method": "urllib",
-        "fetched_at_utc": "2026-09-18T12:35:27Z"
+        "fetched_at_utc": "2026-09-21T01:35:11Z"
       },
       "owner": "约稿媒体",
       "engagement": {
@@ -30499,12 +31512,12 @@ window.LIMIX2_DATA = {
       "publish_time": null,
       "publish_time_note": "用户于上海 2026-09-18 晚提供；正文回顾 09-16 发布，具体公众号发布时间未解析",
       "first_seen": "2026-09-18T12:35:23Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "fetch": {
         "ok": true,
         "method": "urllib",
-        "fetched_at_utc": "2026-09-18T12:35:27Z"
+        "fetched_at_utc": "2026-09-21T01:35:11Z"
       },
       "engagement": {
         "views": null,
@@ -30528,7 +31541,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "官方代码仓锚点；整仓含历史模型，不等同于仅 LimiX-2",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -30545,7 +31558,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "LimiX-2（400M）模型页",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -30562,7 +31575,7 @@ window.LIMIX2_DATA = {
       "lang": "en",
       "notes": "LimiX-2 技术报告",
       "first_seen": "2026-09-16T06:54:54Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "fetch": {
         "ok": true,
@@ -30579,7 +31592,7 @@ window.LIMIX2_DATA = {
       "lang": "zh",
       "notes": "确认指向 LimiX-2（400M / arXiv 2609.17488）；标题与量子位约稿高度同文，暂按自发转载计，若亦为约稿请改入 seeded",
       "first_seen": "2026-09-16T12:33:42Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "published_hint": "2026-09-16 16:05",
       "fetch": {
@@ -30692,7 +31705,7 @@ window.LIMIX2_DATA = {
       "lang": "zh",
       "notes": "WebSearch/WebFetch 于本小时发现；页面明确为 LimiX-2（400M），非 LimiX-2M；非 seeded 投放条目。",
       "first_seen": "2026-09-17T08:16:06Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "published_hint": "2026-09-16 15:41:57",
       "fetch": {
@@ -30721,7 +31734,7 @@ window.LIMIX2_DATA = {
       "lang": "zh",
       "notes": "WebSearch/WebFetch 于 2026-09-18 09:21 小时扫发现；页面明确 LimiX-2（400M），非 LimiX-2M；非 seeded。发布时间 2026-09-17 15:33:49。公开页未见阅读/点赞/转发/收藏/评论数字，互动记 null。",
       "first_seen": "2026-09-18T01:21:36Z",
-      "last_seen": "2026-09-18T12:35:27Z",
+      "last_seen": "2026-09-21T01:35:11Z",
       "status": "online",
       "published_hint": "2026-09-17 15:33:49",
       "fetch": {
@@ -30755,7 +31768,7 @@ window.LIMIX2_DATA = {
       "notes": "WebSearch/WebFetch 于 2026-09-18 09:21 小时扫发现；页面明确 LimiX-2（400M），非 LimiX-2M；非 seeded。发布时间 2026-09-17 21:57。公开页未见阅读/点赞/转发/收藏/评论数字，互动记 null。",
       "first_seen": "2026-09-18T01:21:36Z",
       "last_seen": "2026-09-18T12:35:27Z",
-      "status": "online",
+      "status": "fetch_failed",
       "published_hint": "2026-09-17 21:57",
       "fetch": {
         "ok": true,
